@@ -6,27 +6,6 @@
 body{
     background-color: rgba(0, 255, 234, 0.137);
 }
-.cont-1 img{
-    width: 100%;
-    height: 200px;
-}
-.cont-2 img{
-    margin-top: 10px;
-    width: 100%;
-    height: 300px;
-}
-
-.cont-3 img{
-    margin-top: 10px;
-    width: 110px;
-    height: 50px;
-}
-
-.cont-4 img{
-    margin-top: 10px;
-    width: 100%;
-    height: 500px;
-}
 
 .text-primary{
     color: coral !important;
@@ -40,28 +19,120 @@ header{
     background-color: rgba(0, 255, 234, 0.151) !important;
 }
 
-.container{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 2px solid coral;
-    background-color: rgba(0, 255, 234, 0.151);
-}
-.container-2{
-    
-        width: 100%;
-        
-        margin-right: auto;
-        margin-left: auto;
-      
-      
-}
+
 img{
     border: 2px solid coral;
 }
+.cont-1 img{
+    margin-bottom: 5px;
+    width: 100%;
+    height: 250px;
+}
+.cont-2 img{
+    margin-bottom: 5px;
+    width: 100%;
+    height: 150px;
+}
+.cont-3 img{
+    margin-bottom: 5px;
+    width: 100%;
+    height: 250px;
+}
+.cont-4 img{
+    margin-bottom: 5px;
+    width: 100%;
+    height: 150px;
+}
+.cont-5 img{
+    margin-bottom: 5px;
+    width: 100%;
+    height: 250px;
+}
+/* img{
+    width: 100px;
+    height: 100px;
+} */
+@media (min-width: 768px){
+    body{
+        width: 100vw !important;
+    }
 
-/* Este es el estilo que aplica
-.display-1 {
-    font-size: 5rem;
-    font-weight: 300;
-    line-height: 1.2;
-  } */
+    .cont-1 img{
+        
+        width: 100%;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+    .cont-2{
+        margin-top: 5px;
+    }
+    .cont-2 img{
+        width: 100%;
+        height: 100px;
+    }
+    .cont-3{
+        margin-top: 5px;
+    }
+    .cont-3 img{
+        width: 100%;
+        height: 150px;
+    }
+    .cont-4{
+        margin-top: 5px;
+    }
+    .cont-4 img{
+        width: 100%;
+        height: 100px;
+    }
+    .cont-5{
+        margin-top: 5px;
+    }
+    .cont-5 img{
+        width: 100%;
+        height: 100px;
+    }
+   
+}
+
+  @media (min-width: 992px) {
+    .container{
+        justify-content: start !important;
+        align-items: start;
+    }
+    .cont-1 img{
+        
+        width: 270px;
+        height: 100px;
+    }
+    .cont-2{
+        margin-top: 10px;
+        margin-right: 25px;
+    }
+    .cont-2 img{
+        
+        width: 100%;
+        height: 400px;
+    }
+    .cont-3{
+        margin: 10px 10px;
+        
+    }
+    .cont-3 img{
+        margin-left: 15px;
+        width: 85px;
+        height: 100px;
+        
+    }
+    
+    .cont-4{
+        margin-top: 10px;
+        margin-right: 25px;
+    }
+    .cont-4 img{
+        width: 100%;
+        height: 300px;
+        
+    }
+    
+  }
+  
